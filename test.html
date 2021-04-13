@@ -1,59 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
+  <head>
+    <title>Joshua's Website</title>
+  </head>
+  <style>
+  p.rtl {direction: rtl;}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  .container {
   position: relative;
   text-align: center;
   color: white;
-}
+  }
+  </style>
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
+  <body style = "background-color: wheat; font-size" 18px">
+  <h1>Hello, this is my CSS demo wepage for INFO 101</h1>
+  <h2>Level 1: Newbie</h2>                                                        
+  <p style = "font-family:Perpetua ; fontsize: 25px">This is a apragraph telling you the context of this webpage. Our goal is to chowcase what we have leared with CSS.</p>
 
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
+  <p style = "font-family:"Times New Roman" ; fontsize: 25px">This is another paragraph in the Times New Roman font. I write this in hopes to fufil the "Newbie" level of this builder and make my TA proud of me because she is cool.</p>
 
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
+  <img src="https://www.howitworksdaily.com/wp-content/uploads/2020/04/cats-paw-2288769_1920.jpg"
+    title="Kitty"
+    style="width: 50px; height: 50px;">
+  </img>
+  <p class="rtl">This is my attitional CSS command that makes the text read from right to left.</p>
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-</style>
-</head>
-<body>
-
-<h2>Image Text</h2>
-<p>How to place text over an image:</p>
-
-<div class="container">
+  <h1>Level 2: Apprentice</h2>
+    <style>
+  .container {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+    </style>
+  <div class="container">
   <img src="https://lirp.cdn-website.com/1ce4dbecaee64753bdb182e3ac314b06/dms3rep/multi/opt/ThinkstockPhotos-149052633-960w.jpg" alt="KITTY" style="width:100%;">
-  <div class="bottom-left">Bottom Left</div>
-  <div class="top-left">Top Left</div>
-  <div class="top-right">Top Right</div>
-  <div class="bottom-right">Bottom Right</div>
-  <div class="centered">Centered</div>
-</div>
-
-</body>
-</html> 
+  <div class="centered">Centered Text</div>
+  </div>
+  </body>
+  </html>
