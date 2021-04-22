@@ -3,7 +3,9 @@ body{
 }
 
 p{
-	
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: "Arial";
 }
 
 h3{
