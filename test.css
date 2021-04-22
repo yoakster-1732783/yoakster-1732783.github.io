@@ -62,3 +62,8 @@ li{
 	text-align: center;
 	border: solid 8px black;
 }
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
