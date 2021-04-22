@@ -4,12 +4,15 @@ body{
 
 p{
 	font-weight: bold;
-	color: #FFFFFF;
+	color: white;
 	font-family: "Arial";
 }
 
 h3{
-	
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
 }
 
 li{
@@ -23,6 +26,7 @@ li{
 	margin-left: auto;
 	margin-bottom: 10px;
 	border: solid 8px black;
+	background-color: #8E41D5;
 }
 
 #Header h1{
@@ -30,6 +34,7 @@ li{
 	font-family: "Passion One"; 
 	color: #FFBC00; 
 	font-weight: bold;
+	background-color: #8E41D5;
 }
 
 #LeftNav{
@@ -42,18 +47,19 @@ li{
 	margin-bottom: 10px;
 	border: solid 8px black;
 	float: left;
+	background-color: #8E41D5;
 }
 
 #LeftNav img{
-
+	background-color: #8E41D5;
 }
 
 #LeftNav ul{
-
+	background-color: #8E41D5;
 }
 
 #LeftNav h3{
-
+	background-color: #8E41D5;
 }
 
 #Content {
@@ -64,6 +70,7 @@ li{
 	margin-left: auto;
 	margin-bottom: 10px;
 	border: solid 8px black;
+	background-color: #8E41D5;
 }
 
 #Footer{
@@ -71,10 +78,12 @@ li{
 	padding-left: 0px;
 	text-align: center;
 	border: solid 8px black;
+	background-color: #8E41D5;
 }
 
 ul{
 	list-style-type: none;
 	padding-left: 0px;
+	background-color: #8E41D5;
 }
 
