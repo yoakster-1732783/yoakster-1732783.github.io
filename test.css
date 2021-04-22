@@ -23,7 +23,7 @@ li{
 }
 
 #LeftNav{
-
+	border: solid 8px black;
 }
 
 #LeftNav img{
@@ -39,9 +39,9 @@ li{
 }
 
 #Content {
-
+	border: solid 8px black;
 }
 
 #Footer{
-
+	border: solid 8px black;
 }
