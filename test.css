@@ -49,6 +49,7 @@ ul{
 	margin-bottom: 10px;
 	border: solid 8px black;
 	background-color: #8E41D5;
+	box-shadow: 5px 10px;
 }
 
 #Header h1{
