@@ -91,3 +91,7 @@ a{
 	background-color: #8E41D5;
 }
 
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
