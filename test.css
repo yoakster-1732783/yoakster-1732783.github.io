@@ -49,7 +49,7 @@ ul{
 	margin-bottom: 10px;
 	border: solid 8px black;
 	background-color: #8E41D5;
-	box-shadow: 5px 10px;
+	box-shadow: 5px 10px; /* addition #1*/
 }
 
 #Header h1{
@@ -94,7 +94,8 @@ ul{
 	margin-bottom: 10px;
 	border: solid 8px black;
 	background-color: #8E41D5;
-	border-bottom-style: dotted;
+	border-bottom-style: dotted; /* Addition 2*/
+	text-shadow: 2px 2px white; /*Addition 3*/
 }
 
 #Footer{
