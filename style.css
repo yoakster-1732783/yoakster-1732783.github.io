@@ -268,10 +268,10 @@ button {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0 25px;
-     color: #fff;
-     font-size: 16px;
-     line-height: 20px;
+    padding: 0 25px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -279,12 +279,12 @@ button {
      color: #fdd430;
 }
 
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
-.navigation.navbar-dark .navbar-nav .nav-link.active,
-.navigation.navbar-dark .navbar-nav .nav-link.show,
-.navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fdd430;
-}
+    .navigation.navbar-dark .navbar-nav .active > .nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show > .nav-link {
+        color: #fdd430;
+    }
 
 
 /*-- header area --*/
@@ -307,6 +307,7 @@ button {
      text-transform: uppercase;
      color: #fff;
      line-height: 40px;
+     border: dotted; /*Edit #1*/
 }
 
 .banner_main {
@@ -374,6 +375,7 @@ button {
      line-height: 40px;
      font-weight: bold;
      padding: 0;
+     text-decoration: underline; /*Edit 10*/
 }
 
 
@@ -437,6 +439,7 @@ button {
 .Services .titlepage h2 {
      color: #fff;
      padding-bottom: 20px;
+     text-decoration: underline; /*Edit #3*/
 }
 
 .Services .titlepage p {
@@ -463,6 +466,8 @@ button {
      color: #fff;
      display: block;
      font-weight: 500;
+     border: dashed; /*edit #2*/
+     text-decoration: underline; /*Edit 4*/
 }
 
 .Services .Services-box {
@@ -524,6 +529,7 @@ button {
 
 .why .titlepage h2 {
      padding-bottom: 20px;
+     text-decoration: underline; /*Edit 9*/
 }
 
 .why .titlepage p {
@@ -537,6 +543,8 @@ button {
      color: #090808;
      display: block;
      font-weight: 500;
+     border: dashed; /*Edit 5*/
+     text-decoration: underline; /*Edit 6*/
 }
 
 .why .why-box {
@@ -670,6 +678,7 @@ button {
      line-height: 30px;
      font-weight: bold;
      padding: 30px 0px 0px 0px;
+     text-decoration: underline; /*Edit 7*/
 }
 
 .cont span {
@@ -679,6 +688,7 @@ button {
      padding: 30px 0px 30px 0px;
      display: inline-block;
      font-weight: bold;
+     text-decoration: underline; /*Edit 8*/
 }
 
 .cont p {
